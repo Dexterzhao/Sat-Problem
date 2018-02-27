@@ -1,0 +1,27 @@
+cd core; make; cp minisat ../
+make[1]: Entering directory `/home/zacknewsham/Sites/satgraf/solvers/minisat/core'
+Making dependencies
+make[1]: Leaving directory `/home/zacknewsham/Sites/satgraf/solvers/minisat/core'
+make[1]: Entering directory `/home/zacknewsham/Sites/satgraf/solvers/minisat/core'
+Compiling: core/Main.o
+Compiling: core/Solver.o
+In file included from /home/zacknewsham/Sites/satgraf/solvers/minisat/core/Solver.cc:24:0:
+/home/zacknewsham/Sites/satgraf/solvers/minisat/core/Solver.h: In constructor ‘Minisat::Solver::Solver()’:
+/home/zacknewsham/Sites/satgraf/solvers/minisat/core/Solver.h:131:15: warning: ‘Minisat::Solver::restart_inc’ will be initialized after [-Wreorder]
+     double    restart_inc;        // The factor with which the restart limit is multiplied in each restart.                    (default 1.5)
+               ^
+/home/zacknewsham/Sites/satgraf/solvers/minisat/core/Solver.h:122:12: warning:   ‘std::string Minisat::Solver::pipe_location’ [-Wreorder]
+     string pipe_location;
+            ^
+/home/zacknewsham/Sites/satgraf/solvers/minisat/core/Solver.cc:53:1: warning:   when initialized here [-Wreorder]
+ Solver::Solver() :
+ ^
+Compiling: utils/Options.o
+Compiling: utils/System.o
+Compiling: ../piping/Pipe.o
+/home/zacknewsham/Sites/satgraf/solvers/minisat/../piping/Pipe.cc: In member function ‘void Pipe::writeToPipe(const string&)’:
+/home/zacknewsham/Sites/satgraf/solvers/minisat/../piping/Pipe.cc:28:55: warning: ignoring return value of ‘ssize_t write(int, const void*, size_t)’, declared with attribute warn_unused_result [-Wunused-result]
+     write(this->pipe, output.c_str(), output.length());
+                                                       ^
+Linking: minisat ( core/Main.o core/Solver.o utils/Options.o utils/System.o ../piping/Pipe.o )
+make[1]: Leaving directory `/home/zacknewsham/Sites/satgraf/solvers/minisat/core'

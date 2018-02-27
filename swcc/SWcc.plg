@@ -1,0 +1,71 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: SWcc - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\msi\AppData\Local\Temp\RSPAE6.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/SWcc.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"G:\sat\swcc\SWcc.c"
+]
+Creating command line "cl.exe @C:\Users\msi\AppData\Local\Temp\RSPAE6.tmp" 
+<h3>Output Window</h3>
+Compiling...
+SWcc.c
+g:\sat\swcc\mersenne.h(1) : error C2061: syntax error : identifier 'Mersenne'
+g:\sat\swcc\mersenne.h(1) : error C2059: syntax error : ';'
+g:\sat\swcc\mersenne.h(1) : error C2449: found '{' at file scope (missing function header?)
+g:\sat\swcc\mersenne.h(21) : error C2059: syntax error : '}'
+g:\sat\swcc\mersenne.cc(15) : error C2143: syntax error : missing '{' before ':'
+g:\sat\swcc\mersenne.cc(15) : error C2059: syntax error : ':'
+g:\sat\swcc\mersenne.cc(19) : error C2143: syntax error : missing '{' before ':'
+g:\sat\swcc\mersenne.cc(19) : error C2059: syntax error : ':'
+g:\sat\swcc\mersenne.cc(23) : error C2143: syntax error : missing '{' before ':'
+g:\sat\swcc\mersenne.cc(23) : error C2059: syntax error : ':'
+g:\sat\swcc\mersenne.cc(27) : error C2143: syntax error : missing '{' before ':'
+g:\sat\swcc\mersenne.cc(27) : error C2059: syntax error : ':'
+g:\sat\swcc\mersenne.cc(31) : error C2143: syntax error : missing '{' before '&'
+g:\sat\swcc\mersenne.cc(31) : error C2059: syntax error : '&'
+g:\sat\swcc\mersenne.cc(38) : error C2143: syntax error : missing '{' before ':'
+g:\sat\swcc\mersenne.cc(38) : error C2059: syntax error : ':'
+g:\sat\swcc\mersenne.cc(51) : error C2143: syntax error : missing '{' before ':'
+g:\sat\swcc\mersenne.cc(51) : error C2059: syntax error : ':'
+g:\sat\swcc\mersenne.cc(78) : error C2143: syntax error : missing '{' before ':'
+g:\sat\swcc\mersenne.cc(78) : error C2059: syntax error : ':'
+g:\sat\swcc\mersenne.cc(103) : error C2143: syntax error : missing '{' before ':'
+g:\sat\swcc\mersenne.cc(103) : error C2059: syntax error : ':'
+g:\sat\swcc\mersenne.cc(107) : error C2143: syntax error : missing '{' before ':'
+g:\sat\swcc\mersenne.cc(107) : error C2059: syntax error : ':'
+g:\sat\swcc\mersenne.cc(112) : error C2143: syntax error : missing '{' before ':'
+g:\sat\swcc\mersenne.cc(112) : error C2059: syntax error : ':'
+g:\sat\swcc\mersenne.cc(117) : error C2143: syntax error : missing '{' before ':'
+g:\sat\swcc\mersenne.cc(117) : error C2059: syntax error : ':'
+g:\sat\swcc\mersenne.cc(122) : error C2143: syntax error : missing '{' before ':'
+g:\sat\swcc\mersenne.cc(122) : error C2059: syntax error : ':'
+g:\sat\swcc\swcc.h(39) : error C2061: syntax error : identifier 'rng'
+g:\sat\swcc\swcc.h(39) : error C2059: syntax error : ';'
+g:\sat\swcc\swcc.h(82) : warning C4305: 'initializing' : truncation from 'const double ' to 'float '
+g:\sat\swcc\swcc.h(83) : warning C4305: 'initializing' : truncation from 'const double ' to 'float '
+g:\sat\swcc\swcc.h(289) : error C2054: expected '(' to follow 'inline'
+g:\sat\swcc\swcc.h(290) : error C2085: 'unsat' : not in formal parameter list
+g:\sat\swcc\swcc.h(290) : error C2143: syntax error : missing ';' before '{'
+g:\sat\swcc\swcc.h(297) : error C2054: expected '(' to follow 'inline'
+g:\sat\swcc\swcc.h(298) : error C2085: 'sat' : not in formal parameter list
+g:\sat\swcc\swcc.h(298) : error C2143: syntax error : missing ';' before '{'
+g:\sat\swcc\swcc.h(333) : error C2065: 'rng' : undeclared identifier
+g:\sat\swcc\swcc.h(333) : error C2224: left of '.next' must have struct/union type
+g:\sat\swcc\swcc.h(356) : warning C4013: 'unsat' undefined; assuming extern returning int
+g:\sat\swcc\swcc.h(463) : warning C4013: 'sat' undefined; assuming extern returning int
+g:\sat\swcc\swcc.c(3) : fatal error C1083: Cannot open include file: 'sys/times.h': No such file or directory
+Ö´ÐÐ cl.exe Ê±³ö´í.
+
+
+
+<h3>Results</h3>
+SWcc.obj - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
